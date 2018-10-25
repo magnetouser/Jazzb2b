@@ -9,7 +9,6 @@ var config = {
 
     map: {   
             '*': {
-
                 "datatables.net":"js/dataTables.min",
             }
     },

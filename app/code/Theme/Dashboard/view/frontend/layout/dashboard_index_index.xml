@@ -1,4 +1,6 @@
-<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="2columns-left" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/layout_generic.xsd"
+      layout="2columns-left">
     <body>
         <referenceContainer name="header.container">
             <container name="custom.header" htmlTag="header"  >
@@ -13,9 +15,9 @@
             <block name="customer.section.config" class="Magento\Customer\Block\SectionConfig"
             template="Magento_Customer::js/section-config.phtml"/>
         </referenceContainer>
-        <referenceContainer name="bottom-content">
+        <!-- <referenceContainer name="bottom-content">
             <block class="Theme\Dashboard\Block\Index\Index" name="bottom" template="bottom-content.phtml" />
-        </referenceContainer>
+        </referenceContainer> -->
         <referenceContainer name="footer-container" htmlClass="footer">
             <block class="Magento\Theme\Block\Html\Footer" name="footer" template="html/footer.phtml"/>
         </referenceContainer>

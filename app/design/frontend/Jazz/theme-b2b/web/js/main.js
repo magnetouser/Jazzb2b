@@ -6,6 +6,7 @@ define([
     function(jQuery) {
         "use strict";
         function main() {
+        	console.log("IN Main.js");
         } 
         
         return;
