@@ -1,0 +1,8 @@
+<layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_layout.xsd">
+    <update handle="empty"/>
+    <referenceContainer name="columns">
+        <container name="first.column" htmlTag="div" htmlClass="signupContainer" after="-">
+            <container name="main-content" as="main-content" label="main div content"/>
+        </container>
+    </referenceContainer>
+</layout>

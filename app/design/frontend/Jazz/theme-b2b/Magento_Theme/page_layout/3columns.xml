@@ -1,0 +1,17 @@
+<layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_layout.xsd">
+    <update handle="3columns"/>
+    <referenceContainer name="columns">
+        <container name="first.column" htmlTag="div" htmlClass="col-sm-2" after="-">
+            <container name="sidebar" as="sidebar" label="sidebar content"/>
+        </container>
+        <container name="second.column" htmlTag="div" htmlClass="col-sm-8 " after="-">
+            <container name="main-content" as="main-content" label="main div content"/>
+        </container>
+        <container name="third.column" htmlTag="div" htmlClass="col-sm-2 " after="-">
+            <container name="sidebar-right" as="sidebar-right" label="sidebar content"/>
+        </container>
+    </referenceContainer>
+    <referenceContainer name="page.wrapper">
+        <container name="bottom-content" htmlTag="div" htmlClass="col-sm-12" />
+    </referenceContainer>
+</layout>

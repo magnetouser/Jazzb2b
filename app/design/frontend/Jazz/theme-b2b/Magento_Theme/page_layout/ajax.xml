@@ -1,0 +1,17 @@
+<layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_layout.xsd">
+    <update handle="empty"/>
+    <reference name="root">
+        <remove name="header"/>
+        <remove name="footer"/>
+        <remove name="footer-container"/>
+        <remove name="header.container"/>
+        <remove name="page.messages"/>
+        <remove name="page.wrapper"/>
+        <remove name="columns"/>
+    </reference>
+    <referenceContainer name="columns">
+        <container name="second.column" htmlTag="div" htmlClass="col-xs-12 takenHeight" after="-">
+            <container name="main-content" as="main-content" label="main div content"/>
+        </container>
+    </referenceContainer>
+</layout>

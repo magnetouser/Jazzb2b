@@ -1,0 +1,18 @@
+<layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_layout.xsd">
+    <update handle="1column"/>
+        
+        <referenceContainer name="columns">
+            <!--<container htmlTag="div" htmlClass="row">-->
+                <container name="first.column" htmlTag="div" htmlClass="col-xs-12 col-sm-4 col-lg-3" after="-">
+                    <container name="sidebar" as="sidebar" label="sidebar content"/>
+                </container>
+                <container name="second.column" htmlTag="div" htmlClass="col-xs-12 col-sm-8 col-lg-9 takenHeight" after="-">
+                    <container name="main-content" as="main-content" label="main div content"/>
+                </container>
+            <!--</container>-->
+        </referenceContainer>
+    <referenceContainer name="page.wrapper">
+        <container name="bread-crums" as="bread-crums" label="bread-crums content" after="header.container"/>
+        <container name="bottom-content" htmlTag="div" htmlClass="main_bottom" />
+    </referenceContainer>
+</layout>

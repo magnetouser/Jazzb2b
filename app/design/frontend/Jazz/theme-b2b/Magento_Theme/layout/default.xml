@@ -1,0 +1,20 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="register-link" remove="true" />
+        <referenceBlock name="authorization-link" remove="true" />
+        <referenceBlock name="wish-list-link" remove="true" />
+        <referenceBlock name="my-account-link" remove="true" />
+        <referenceBlock name="top.links" remove="true" />
+        <referenceBlock name="header.panel.wrapper" remove="true" />
+        <referenceBlock name="advanced-search-link" remove="true"/>
+        <move element="navigation.sections" destination="header-wrapper" after="logo"/>
+        <referenceBlock name="header-content" remove="true" />
+        <!--<referenceBlock name="main" remove="true" />-->
+        <referenceBlock name="div.sidebar.main" remove="true" />
+        <referenceBlock name="div.sidebar.additional" remove="true" />
+        <referenceBlock name="header-wrapper" remove="true" />
+        <referenceBlock name="page.main.title" remove="true" />
+        <referenceBlock name="authentication-popup" remove="true"/>
+        <!--<referenceBlock name="header.container" remove="true" />-->
+    </body>
+</page>

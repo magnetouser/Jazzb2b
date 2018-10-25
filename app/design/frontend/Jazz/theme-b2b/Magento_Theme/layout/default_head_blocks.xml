@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <link rel="stylesheet" type="text/css" src="https://fonts.googleapis.com/css?family=Roboto" />
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <!-- <css src="css/asPieProgress.css" /> -->
+        <css src="bootstrap/css/bootstrap.css" />
+        <css src="bootstrap/css/bootstrap-theme.css" />
+        <css src="css/responsive.dataTables.min.css" />
+        <!--
+        <css src="css/checkbox-x.min.css" />
+        <css src="css/theme-krajee-flatblue.min.css" />
+        <css src="css/responsive.dataTables.min.css" />
+        <css src="css/font-awesome.min.css" />
+        <css src="css/selectric.css" />
+       
+        <css src="css/jquery.mCustomScrollbar.min.css" />
+        <css src="css/slick.css" />
+        <css src="css/styles.css" />
+        <css src="css/style_f.css" />
+        <css src="css/responsive.css" />
+        <css src="css/styles-m.css" /> -->
+    </head>
+</page>

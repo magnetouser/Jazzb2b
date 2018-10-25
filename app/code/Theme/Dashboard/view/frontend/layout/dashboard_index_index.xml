@@ -1,0 +1,23 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="2columns-left" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="header.container">
+            <container name="custom.header" htmlTag="header"  >
+                <block class="Magento\Theme\Block\Html\Header" name="header" template="html/header.phtml"  before="-"/>
+            </container>
+        </referenceContainer>
+        <referenceContainer name="sidebar">
+            <block class="Theme\Dashboard\Block\Index\Index" name="leftsidebar" template="leftsidebar.phtml" />
+        </referenceContainer>
+        <referenceContainer name="main-content">
+            <block class="Theme\Dashboard\Block\Index\Index" name="content" template="dashboard_index_index.phtml" />
+            <block name="customer.section.config" class="Magento\Customer\Block\SectionConfig"
+            template="Magento_Customer::js/section-config.phtml"/>
+        </referenceContainer>
+        <referenceContainer name="bottom-content">
+            <block class="Theme\Dashboard\Block\Index\Index" name="bottom" template="bottom-content.phtml" />
+        </referenceContainer>
+        <referenceContainer name="footer-container" htmlClass="footer">
+            <block class="Magento\Theme\Block\Html\Footer" name="footer" template="html/footer.phtml"/>
+        </referenceContainer>
+    </body>
+</page>
