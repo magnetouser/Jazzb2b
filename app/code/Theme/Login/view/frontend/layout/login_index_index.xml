@@ -3,7 +3,7 @@
       layout="1column">
 
     <body>
-
+    	<referenceBlock name="footer" remove="true" />
         <referenceContainer name="content">
             <block class="Theme\Login\Block\Index\Index" name="index" template="Theme_Login::index.phtml"/>
         </referenceContainer>
